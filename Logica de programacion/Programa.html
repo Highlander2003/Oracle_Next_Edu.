@@ -1,0 +1,30 @@
+<meta charset="UTF-8" />
+
+<script>
+  var anho = 2023;
+  var edadLuis = anho - 2003;
+  var edadJuan = anho - 2011;
+  var edadPedro = anho - 2008;
+  var edadLuisa = anho - 2003;
+  var edadJuana = anho - 2011;
+  var edadPedra = anho - 2008;
+  var mediaH = (edadLuis + edadJuan + edadPedro) / 3;
+  var mediaM = (edadLuisa + edadJuana + edadPedra) / 3;
+  var mediaT= (mediaH+mediaM)/2;
+
+  document.write("<h1>Edad de Hombres: </h1>");
+  document.write("La edad de Luis " + edadLuis + " años <br>");
+  document.write("La edad de Juan " + edadJuan + " años <br>");
+  document.write("La edad de Pedro " + edadPedro + " años <br>");
+  document.write("La media de la edad es: "+ Math.round(mediaH)+" años <br>");
+
+
+  document.write("<h1>Edad de mujeres: </h1>");
+  document.write("La edad de Luisa " + edadLuisa + " años <br>");
+  document.write("La edad de Juana " + edadJuana + " años <br>");
+  document.write("La edad de Pedra" + edadPedro + " años <br>");
+  document.write("La media de la edad es: "+ Math.round(mediaM)+" años <br><br>");
+
+
+  document.write("<h1>La media de todas las edades "+ Math.round(mediaT)+"</h1>");
+</script>
